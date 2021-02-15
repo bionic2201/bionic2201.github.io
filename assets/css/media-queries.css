@@ -42,6 +42,7 @@
 @media (max-width: 415px) {
 	
 	h1, h2 { font-size: 32px; }
+	.card img { display: none;}
 
 }
 
@@ -58,7 +59,7 @@ only screen and (                min-resolution: 2dppx) {
 	
 	/* logo */
     .navbar-brand {
-    	background-image: url(../img/logo@2x.png) !important; background-repeat: no-repeat !important; background-size: 105px 33px !important;
+    	background-image: url(../img/logoes.png) !important; background-repeat: no-repeat !important; background-size: 105px 33px !important;
     }
 	
 }
