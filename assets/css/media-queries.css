@@ -59,7 +59,7 @@ only screen and (                min-resolution: 2dppx) {
 	
 	/* logo */
     .navbar-brand {
-    	background-image: url(../img/logoes.png) !important; background-repeat: no-repeat !important; background-size: 105px 33px !important;
+    	background-image: url(../img/logoes.png) !important; background-repeat: no-repeat !important; background-size: 105px 25px !important;
     }
 	
 }
