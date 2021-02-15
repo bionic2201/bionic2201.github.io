@@ -43,23 +43,14 @@
 	
 	h1, h2 { font-size: 32px; }
 	.card img { display: none;}
+	.navbar-brand {
+    	background-image: url(../img/logoes2.png) !important; background-repeat: no-repeat !important; background-size: 38px 30px !important;
+	}
+	
 
 }
 
 
 /* Retina-ize images/icons */
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) {
-	
-	/* logo */
-    .navbar-brand {
-    	background-image: url(../img/logoes.png) !important; background-repeat: no-repeat !important; background-size: 105px 25px !important;
-    }
-	
-}
+

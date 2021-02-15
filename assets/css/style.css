@@ -179,7 +179,7 @@ img {
 }
 
 .navbar-brand {
-    width: 100%;
+    width: 50%;
     background: url(../img/logoes.png) left center no-repeat;
     border: 0;
     text-indent: -99999px;
@@ -215,14 +215,14 @@ img {
 
 /***** Section 1 *****/
 
-.section-1-box {
+.section-2-box {
     padding-top: 30px;
     text-align: left;
 }
 
 
 
-.section-1-box h3 {
+.section-2-box h3 {
     margin-top: 0;
     padding: 0 0 10px 0;
 }
@@ -234,16 +234,16 @@ img {
 
 /***** Section 2 *****/
 
-.section-2-box {
+.section-1-box {
     margin-top: 10spx;
     text-align: left;
 }
 
-.section-2-box h3 {
+.section-1-box h3 {
     margin-top: 0;
 }
 
-.section-2-box-text .medium-paragraph {
+.section-1-box-text .medium-paragraph {
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -352,7 +352,7 @@ a:hover,a:focus{
     margin-top: 40px;
     margin-bottom: 40px;
     text-align: left;
-background-color: rgb(255, 255, 255);  
+    background: linear-gradient(180deg, rgba(255,67,112,1) 60%, rgba(44,41,47,1) 100%);
 
     transition: 0.3s;
    
@@ -368,6 +368,7 @@ background-color: rgb(255, 255, 255);
 .card-body {
     padding: 0px;
     margin-right: 15px;
+    color: #fff;
   
 }
 
@@ -375,14 +376,14 @@ background-color: rgb(255, 255, 255);
 			font-size: 35px;}
 
 .card img {
-    opacity: 0.8;
+    opacity: 0.3;
     padding: 0px;
     margin: -1px;
     width: 100%;
     height: auto;
     display: block;
     border-radius: 0px;
-	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+	
 }
 
 .form-box {
