@@ -31,10 +31,10 @@
 	.section-description p { padding: 0; }
 	
 	.section-1-container { padding-bottom: 60px; }
-	.section-1-box { text-align: center; }
+	.section-1-box { text-align: left; }
 	.section-1-box h3 { margin-top: 20px; padding-top: 10px; }
 	
-	.section-3-box { text-align: center; }
+	.section-3-box { text-align: left; }
 	.section-3-box h3 { margin-top: 20px; padding-top: 10px; }
 	
 }
