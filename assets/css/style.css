@@ -179,7 +179,7 @@ img {
 }
 
 .navbar-brand {
-    width: 134px;
+    width: 100%;
     background: url(../img/logoes.png) left center no-repeat;
     border: 0;
     text-indent: -99999px;
@@ -235,7 +235,7 @@ img {
 /***** Section 2 *****/
 
 .section-2-box {
-    margin-top: 30px;
+    margin-top: 10spx;
     text-align: left;
 }
 
