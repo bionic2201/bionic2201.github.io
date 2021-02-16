@@ -30,14 +30,14 @@ jQuery(document).ready(function() {
         Background slideshow
     */
     $('.top-content').backstretch("assets/img/backgrounds/hygiene2.jpg");
-    $('.section-4-container').backstretch("assets/img/backgrounds/hygiene2.jpg");
+	$('.section-4-container').backstretch("assets/img/backgrounds/hygiene2.jpg");
     
     /*
         Wow
     */
     new WOW().init();
 	
-})
+
 
 $(".nav-tabs li.nav-item a.nav-link").click(function() {
 	$(".nav-tabs li.nav-item a.nav-link").removeClass('active');
@@ -74,4 +74,5 @@ $('.contact-form form').submit(function(e) {
 		}
 	});
 
+});
 });
