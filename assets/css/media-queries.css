@@ -25,6 +25,9 @@
 	.navbar-dark .navbar-toggler { border-color: #444; }
 	.navbar-dark .navbar-toggler:focus { background: #333; outline: 0; }
 	.navbar-expand-md .navbar-nav .nav-link { padding-top: 0.3rem; padding-bottom: 0.3rem; }
+	.navbar-brand {
+    	background-image: url(../img/logoes2.png) !important; background-repeat: no-repeat !important; background-size: 38px 30px !important;
+	}
 
 	.inner-bg { padding: 100px 0 80px 0; }
 	

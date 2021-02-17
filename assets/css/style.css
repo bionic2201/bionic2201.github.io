@@ -57,6 +57,9 @@ h3 > span{
     text-transform: uppercase;
 }
 
+.description{font-size: 30px;
+font-weight: 800;}
+
 img {
     max-width: 100%;
 }
@@ -189,7 +192,7 @@ img {
 }
 
 .navbar-brand {
-    width:100%;
+    width: 200px;
     background: url(../img/lab.png) left no-repeat;
     border: 0;
     text-indent: -99999px;
@@ -286,7 +289,7 @@ height: 100%;}
     padding: 0px;
 }
 
-.section-team{padding: 0px;}
+.section-team{padding: 10px;}
 
 a:hover,a:focus{
     text-decoration: none;
