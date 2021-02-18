@@ -232,6 +232,7 @@ img {
 
 .section-2-box {
     padding-top: 30px;
+    padding-bottom: 30px;
     text-align: left;
 }
 
@@ -254,6 +255,7 @@ height: 100%;}
 
 .section-1-box {
     padding-top: 30px;
+    padding-bottom: 30px;
     text-align: left;
 }
 
@@ -270,15 +272,14 @@ height: 100%;}
 /***** Section 3 *****/
 
 .section-3-box {
-    padding-top: 30px;
+    padding-top: 30px !important;
+    padding-bottom: 30px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
     text-align: left;
 }
 
 
-.section-3-box h3 {
-    margin-top: 0;
-    padding: 0 0 10px 0;
-}
 
 .section-4-container {display: block;
     max-height: 50%;
