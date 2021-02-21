@@ -44,7 +44,7 @@
 
 @media (max-width: 415px) {
 	
-	h1, h2 { font-size: 32px; }
+	h1, h2 { font-size: 28px; }
 	.card img { display: none;}
 	.navbar-brand {
     	background-image: url(../img/logoes2.png) !important; background-repeat: no-repeat !important; background-size: 38px 30px !important;
