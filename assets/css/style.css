@@ -407,7 +407,7 @@ a:focus {
 .tab .nav-tabs li.nav-item a.nav-link.active:before,
 .tab .nav-tabs li.nav-item a.nav-link:hover:before {
     background: linear-gradient(#ff4370, #ff4370);
-    border-radius: 5px 5px 0 0;
+    border-radius: 5x 5px 0 0;
     transform: perspective(500px) rotateX(0);
 }
 
@@ -455,8 +455,9 @@ a:focus {
     margin-top: 40px;
     margin-bottom: 40px;
     text-align: left;
-    background: linear-gradient(180deg, rgba(255, 67, 112, 1) 60%, rgba(44, 41, 47, 1) 100%);
-
+    background: linear-gradient(180deg, rgb(255, 67, 112) 60%, rgba(44, 41, 47, 1) 100%);
+border-radius: 10px;
+border-style: solid;
     transition: 0.3s;
 
 }
@@ -470,9 +471,12 @@ a:focus {
 }
 
 .section-2-box .card-body {
-    padding: 0px;
+    padding-top:  20x;
     margin-right: 15px;
+font-weight: 600;
     color: #fff;
+
+    min-height: 500px;
 
 }
 
