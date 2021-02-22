@@ -60,11 +60,14 @@ h3>span {
 
 
 
-.arten {
-
-    margin-top: 35px;
-    margin-bottom: 30px;
+p.description.arten {
+font-size: 16px;
+ 
+    margin-bottom: 15px; 
 }
+
+.arten{   margin-top: 30px;
+    margin-bottom: 15px; }
 
 
 
@@ -192,7 +195,7 @@ img {
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
     color: rgba(255, 254, 254);
-    
+
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -343,6 +346,11 @@ img {
     padding: 10px;
 }
 
+
+
+
+/*****Leistungen****/
+
 a:hover,
 a:focus {
     text-decoration: none;
@@ -469,11 +477,11 @@ a:focus {
 }
 
 .section-2-box .card-body {
-    padding-top:  20x;
-    padding-left:0px;
+    padding-top: 20x;
+    padding-left: 0px;
     padding-right: 0%;
     margin: 0px;
-font-weight: 600;
+    font-weight: 600;
     color: #fff;
 
     min-height: 500px;
@@ -485,181 +493,12 @@ font-weight: 600;
     font-size: 35px;
 }
 
-.classWithPad { margin-right:10px; padding-right:10px; padding-left: 0%;}
-
-.divide {background-color: #fff;
-padding: 0%;
-margin: 0%;
-}
-
-.varianten {border-radius: 20px;
-
-border-style: solid;
-
-}
-
-.varianten .card {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    text-align: left;
-    background: linear-gradient(180deg, rgb(255, 255, 255) 60%, rgb(255, 255, 255) 100%);
-    border-radius: 20px;
-    transition: 0.3s;
-
-}
 
 
-.varianten .card-header {
-    background-color: #ffffff;
-    border: none;
-    padding: 0px;
-
-}
-
-.varianten .card-body {
-    padding: 0px;
-    border-radius: 20px;
-    margin-right: 15px;
-    color: rgb(12, 12, 12);
-
-}
-
-.varianten .card-title {
-    padding-left: 15px;
-    font-size: 35px;
-}
-
-.varianten .tab .nav-tabs {
-    background-color: transparent;
-    border: none;
-}
-
-.varianten .tab .nav-tabs .nav-item a {
-    color: rgb(0, 0, 0);
-    background: transparent;
-    font-size: 25px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 10px 12px 5px;
-    margin: 0 0 1px 0;
-    border: none;
-    border-radius: 0;
-    overflow: hidden;
-    position: relative;
-    z-index: 1;
-    transition: all 0.3s ease 0s;
-}
-
-.varianten .tab .nav-tabs .nav-item a:last-child a {
-    margin-right: 0;
-}
-
-.varianten .tab .nav-tabs .nav-item a:hover,
-.varianten .tab .nav-tabs .nav-item.active a {
-    color: #222;
-    background: transparent;
-    border: none;
-}
-
-.varianten .tab .nav-tabs .nav-item.active a {
-    color: #fff;
-}
-
-.varianten .tab .nav-tabs .nav-item a:before {
-    content: "";
-    background: rgb(187, 184, 184);
-    height: 100%;
-    width: 100%;
-    transform: perspective(400px) rotateX(75deg);
-    transform-origin: bottom center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: all 0.5s ease 0s;
-}
-
-.varianten .tab .nav-tabs li.nav-item a.nav-link.active:before,
-.varianten .tab .nav-tabs li.nav-item a.nav-link:hover:before {
-    background: linear-gradient(#adaaab, #adaaab);
-    border-radius: 5px 5px 0 0;
-    transform: perspective(500px) rotateX(0);
-}
-
-.varianten .tab .tab-content {
-    color: #fff;
-    background: #333;
-    font-size: 16px;
-    letter-spacing: 1px;
-    line-height: 23px;
-    padding: 20px;
-    border-radius: 0 0 20px 20px;
-    box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.5);
-}
-
-.varianten .tab .tab-content h3 {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin: 0 0 7px 0;
-}
-
-.card img {
-    opacity: 0.4;
-    padding: 0px;
-    margin: -1px;
-    width: 100%;
-    height: auto;
-
-    border-radius: 0px;
-
-}
-
-.table {
-    border-style: none;
-    text-align: left;
-}
-
-tr {
-    line-height: 8px;
-    min-height: 20px;
-    height: 20px;
-}
 
 
-.pricing-card {
-    flex-direction: column;
-    padding: 0px;
-    margin-bottom: 30px;
-    min-width: 0;
-    height: auto;
-    color: rgb(0, 0, 0);
-    word-wrap: break-word;
-    background: #2980b9;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #2980b9, #6dd5fa, #ffffff);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #2980b9, #6dd5fa, #ffffff);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-
-    border-style: solid;
-    border-radius: 10px 20px;
-    background-clip: border-box;
-    border: 1px solid #fff;
-    border-radius: 6px;
-    perspective: 1000px;
-
-}
-
-.price-card-body {
-    padding: 0px;
-}
-
+/*****Kontaktformular****/
 
 .form-box {
     padding-top: 40px;
@@ -875,148 +714,26 @@ footer {
     text-align: center;
 }
 
-.pricingTable {
-    margin-top: 30px;
-    text-align: center;
-    position: relative;
-}
+/*****Service Box****/
 
-.pricingTable .pricing_heading:after {
-    content: "";
-    width: 40px;
-    height: 49.5%;
-    background: #EF476F;
-    position: absolute;
-    top: -1px;
-    right: 0;
-    z-index: 2;
-    transform: skewY(45deg) translateY(18px);
-    transition: all 0.4s ease 0s;
-}
-
-.pricingTable .title {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 30px;
-    color: #000;
-    text-transform: uppercase;
-    background: #EF476F;
-    padding: 15px 0 0;
-    margin: 0 35px 0 0;
-    transition: all 0.4s ease 0s;
-}
-
-.pricingTable .value {
-    display: block;
-    font-size: 35px;
-    font-weight: 700;
-    color: #000;
-    background: #EF476F;
-    padding: 5px 0 10px;
-    margin: 0 35px 0 0;
-    transition: all 0.4s ease 0s;
-}
-
-.pricingTable:hover .title,
-.pricingTable:hover .value {
-    color: #fff;
-}
-
-.pricingTable .month {
-    display: block;
-    font-size: 13px;
-    font-weight: 500;
-    color: #fff;
-    text-transform: uppercase;
-}
-
-.pricingTable .content {
-    border-left: 1px solid #f2f2f2;
-    position: relative;
-}
-
-.pricingTable .content:after {
-    content: "";
-    width: 35px;
-    height: 100%;
-    background: #f8f8f8;
-    box-shadow: 9px 9px 20px #ddd;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 1;
-    transform: skewY(-45deg) translateY(-18px);
-    transition: all 0.4s ease 0s;
-}
-
-.pricingTable .content ul {
-    padding: 0;
-    margin: 0 35px 0 0;
-    list-style: none;
-    background: #fff;
-}
-
-.pricingTable .content ul li {
-    display: block;
-    font-size: 15px;
-    color: #333;
-    line-height: 23px;
-    padding: 11px 0;
-    border-bottom: 1px solid #f2f2f2;
-}
-
-.pricingTable .link {
-    background: #fff;
-    padding: 20px 0;
-    margin-right: 35px;
-    border-bottom: 1px solid #f2f2f2;
-}
-
-.pricingTable .link a {
-    display: inline-block;
-    padding: 9px 20px;
-    font-weight: 700;
-    color: #EF476F;
-    text-transform: uppercase;
-    border: 1px solid #EF476F;
-    background: #fff;
-    transition: all 0.4s ease 0s;
-}
-
-.pricingTable:hover .link a {
-    color: #fff;
-    background: #06D6A0;
-    border: 1px solid #06D6A0;
-}
-
-.pricingTable:hover .pricing_heading:after,
-.pricingTable:hover .title,
-.pricingTable:hover .value {
-    background: #06D6A0;
-}
-
-@media only screen and (max-width: 990px) {
-    .pricingTable {
-        margin-bottom: 35px;
-    }
-}
-
-.serviceBox{
+.serviceBox {
     color: rgb(211, 211, 211);
-   
+
     text-align: center;
     padding: 25px 25px 55px;
     position: relative;
     z-index: 1;
 }
 
-.serviceBox:before{box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;}
+.serviceBox:before {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
 
 .serviceBox:before,
-.serviceBox:after{
+.serviceBox:after {
     content: '';
     background: #ff4370;
-  
+
     opacity: 0.9;
     border-radius: 20px;
     position: absolute;
@@ -1028,8 +745,8 @@ footer {
 }
 
 
-.serviceBox:after{
-   
+.serviceBox:after {
+
     background-image: url(/assets/img/backgrounds/hygiene3.jpg);
     opacity: 1;
     left: 0;
@@ -1038,58 +755,39 @@ footer {
     bottom: 15px;
     clip-path: polygon(30% 0, 100% 0, 100% 85%, 75% 100%, 0 100%, 0 20%);
 }
-.serviceBox .service-icon{
+
+.serviceBox .service-icon {
     color: #ffffff;
     font-size: 35px;
-    text-shadow: 4px 4px rgba(0,0,0,0.1);
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.1);
     margin: 0 0 10px;
 }
-.serviceBox .title{
+
+.serviceBox .title {
     color: #ffffff;
     font-size: 25px;
     font-weight: 400;
     text-transform: uppercase;
     margin: 0 0 10px;
 }
-.serviceBox .title span{ font-weight: 700; }
-.serviceBox .description{
-    color: rgb(255, 255, 255);
-   
 
-    font-size: 20px;
-    line-height: 1.5;
-    letter-spacing: 0.5px;
-    text-align: center;
+.serviceBox .title span {
+    font-weight: 700;
+}
+
+.serviceBox .description {
+    color: rgb(255, 255, 255);
+
+
+    font-size: 18px;
+    line-height: 1.3;
+    
+    text-align: left;
     margin: 0;
 }
-.serviceBox .read-more{
-    color: #fff;
-    font-size: 22px;
-    line-height: 22px;
-    position: absolute;
-    right: 15px;
-    bottom: 9px;
-    transition: all 0.3s ease 0s;
-}
-.serviceBox .read-more:hover{
-    color: rgba(255,255,255,0.7);
-    text-shadow: 3px 3px rgba(255,255,255,0.1);
-}
-.serviceBox.darkgreen:before{ background: linear-gradient(#00A28D, #007385); }
-.serviceBox.darkgreen .service-icon,
-.serviceBox.darkgreen .title{
-    color: #007385;
-}
-.serviceBox.blue:before{ background: linear-gradient(#00BFE9, #0170DC); }
-.serviceBox.blue .service-icon,
-.serviceBox.blue .title{
-    color: #0170DC;
-}
-.serviceBox.green:before{ background: linear-gradient(#93c916, #3AB447); }
-.serviceBox.green .service-icon,
-.serviceBox.green .title {
-    color: #3AB447;
-}
-@media only screen and (max-width:990px){
-    .serviceBox{ margin: 0 0 30px; }
+
+@media only screen and (max-width:990px) {
+    .serviceBox {
+        margin: 0 0 30px;
+    }
 }
