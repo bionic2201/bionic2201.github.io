@@ -68,12 +68,10 @@ h3>span {
 
 
 
-
-
 .description {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 800;
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: left;
     text-transform: uppercase;
     line-height: 1.1;
@@ -170,7 +168,7 @@ img {
 /***** Top menu *****/
 
 .navbar {
-    background: #444;
+    background: #2c292f;
     -o-transition: all .6s;
     -moz-transition: all .6s;
     -webkit-transition: all .6s;
@@ -180,12 +178,12 @@ img {
 }
 
 .navbar.navbar-no-bg {
-    background: #444;
+    background: #2c292f;
     background: rgba(0, 0, 0, 0.2);
 }
 
 .navbar-dark .navbar-nav {
-    font-size: 17px;
+    font-size: 20px;
     color: #fff;
     text-transform: uppercase;
     font-weight: 900;
@@ -193,12 +191,12 @@ img {
 
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
-    color: rgba(255, 255, 255, 0.9);
-    border: 0;
+    color: rgba(255, 254, 254);
+    
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: rgb(255, 0, 0);
+    color: #ff4370;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus {

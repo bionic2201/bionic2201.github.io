@@ -46,7 +46,7 @@
 	
 	h1, h2 { font-size: 28px; }
 	body{font-size: 17px;}
-	.description {font-size: 20px;
+	description {font-size: 20px;
 	line-height: 1.4;}
 	.card img { display: none;}
 	.navbar-brand {
