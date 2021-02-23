@@ -45,8 +45,11 @@
 @media (max-width: 415px) {
 	
 	h1, h2 { font-size: 28px; }
+	.section-2-box .card-title { font-size: 28px;}
+	.tab .nav-tabs .nav-item a { font-size: 20px;
+	padding-bottom: 15px;}
 	body{font-size: 17px;}
-	description {font-size: 20px;
+	.sub-head {font-size: 18px;
 	line-height: 1.4;}
 	.card img { display: none;}
 	.navbar-brand {
