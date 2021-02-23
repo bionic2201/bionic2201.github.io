@@ -257,7 +257,12 @@ position: relative;}
 
 /***** Counter *****/
 
-.section-1-container.about{background-color:#2c292f; 
+.section-1-container.about{background-color:#ffffff; 
+    color:rgb(0, 0, 0);
+    font-weight: 500;
+padding-top: 35px;}
+
+.section-1-container.counter-section{background-color:#2c292f; 
     color:rgb(255, 255, 255);
     font-weight: 500;
 padding-top: 35px;}
