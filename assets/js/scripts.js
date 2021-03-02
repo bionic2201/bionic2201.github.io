@@ -56,6 +56,8 @@ $(document).ready(function(){
 
 
 
+
+
 	//Get the button
 var btn = $('#button');
 
@@ -74,9 +76,11 @@ btn.on('click', function(e) {
 
 
 
-$(".nav-tabs li.nav-item a.nav-link").click(function() {
-	$(".nav-tabs li.nav-item a.nav-link").removeClass('active');
-  });
+//$(".nav-tabs li.nav-item a.nav-link").click(function() {
+//	$(".nav-tabs li.nav-item a.nav-link").removeClass('active');
+//  })
+
+
 
 
   $('.contact-form form input[type="text"], .contact-form form textarea').on('focus', function() {
