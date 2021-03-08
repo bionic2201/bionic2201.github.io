@@ -857,7 +857,7 @@ footer {
 
 footer.imp {background-color: #2c292f;
     bottom: 0;
-    position: absolute;
+    position: relative;
     width: 100%;
     height: auto;
     padding-bottom: 40px;
