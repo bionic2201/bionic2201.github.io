@@ -44,7 +44,7 @@
 
 @media (max-width: 415px) {
 	
-	h1, h2 { font-size: 28px; }
+	h1, h2, h3 { font-size: 28px; }
 	.section-2-box .card-title { font-size: 28px;}
 	.tab .nav-tabs .nav-item a { font-size: 20px;
 	padding-bottom: 15px;}
